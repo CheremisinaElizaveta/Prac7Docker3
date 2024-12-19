@@ -3,11 +3,11 @@ name: Code Style Check
 on: 
   push: 
     branches:
-      - vetka3
+      - vetka5
 
   pull_request: 
     branches:
-      - vetka3
+      - vetka5
 
 jobs:
   checkstyle_project:
