@@ -74,7 +74,7 @@ def buyer_panel():
 
 def change_password():
     while True:
-        username = input("Введите логин пользователя, у которого нужно изменить пароль: ")
+        username = input("Введите логин")
         with open("users.txt", "r") as f:
             lines = f.readlines()
         found = False
@@ -96,4 +96,3 @@ def change_password():
 
 
 login()
-
